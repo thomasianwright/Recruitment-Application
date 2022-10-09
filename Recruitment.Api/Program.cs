@@ -11,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContextFactory<ApiContext>(options =>
 {
+    options.UseLazyLoadingProxies();
     options.UseSqlServer(builder.Configuration.GetConnectionString("ApiConnection"));
 });
 var app = builder.Build();

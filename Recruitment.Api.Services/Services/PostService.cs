@@ -72,7 +72,7 @@ public class PostService
     {
         var agents = await _agentRepository.GetAgents(post.AgentIds);
         var accountManager = await _agentRepository.GetAgent(post.AccountManagerId);
-        var tags = await _tagRepository.GetTag(post.Tags);
+        var tags = await _tagRepository.GetTags(post.Tags);
         
         var newJobPost = _mapper.Map<JobPost>(post);
 

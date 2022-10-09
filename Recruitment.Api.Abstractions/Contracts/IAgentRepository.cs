@@ -7,7 +7,7 @@ public interface IAgentRepository
     Task<Agent> GetAgent(Guid id);
     Task<IEnumerable<Agent>> GetAgents(IList<Guid> ids);
     Task<IEnumerable<Agent>> GetAgents();
-    Task<Agent> CreateAgent();
+    Task<Agent> CreateAgent(Agent agent);
     Task<Agent> UpdateAgent(Agent agent);
     Task DeleteAgent(Guid id);
 }
