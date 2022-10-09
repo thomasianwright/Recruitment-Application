@@ -1,7 +1,7 @@
 using AutoMapper;
 using Recruitment.Api.Core.Entities;
-using Recruitment.Api.Core.Enum;
 using Recruitment.Shared.Core.Dto;
+using Recruitment.Shared.Core.Enum;
 
 namespace Recruitment.Api.Core.Mappers;
 

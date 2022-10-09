@@ -1,4 +1,4 @@
-using Recruitment.Api.Core.Enum;
+using Recruitment.Shared.Core.Enum;
 
 namespace Recruitment.Api.Core.Entities;
 

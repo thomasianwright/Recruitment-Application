@@ -1,5 +1,3 @@
-using Recruitment.Api.Core.Enum;
-
 namespace Recruitment.Api.Core.Entities;
 
 public class JobPost

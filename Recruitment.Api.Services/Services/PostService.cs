@@ -5,7 +5,7 @@ using Recruitment.Shared.Core.Dto;
 
 namespace Recruitment.Api.Services.Services;
 
-public class PostService
+public class PostService : IPostService
 {
     private readonly IPostsRepository _postRepository;
     private readonly IAgentRepository _agentRepository;
@@ -86,8 +86,8 @@ public class PostService
         return _mapper.Map<JobPostDto>(newJobPost);
     }
 
-    // public async Task<JobPostDto> UpdateJobPost(UpdateJobPostDto updatePost)
-    // {
-    //     
-    // }
+    public async Task<JobPostDto> UpdateJobPost(UpdateJobPostDto updatePost)
+    {
+        throw new NotImplementedException();
+    }
 }

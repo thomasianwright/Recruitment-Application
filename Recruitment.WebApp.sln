@@ -1,12 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruitment.WebApp", "Recruitment.WebApp\Recruitment.WebApp.csproj", "{A31CDCAB-557A-4581-9885-51FA8956DBD7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruitment.UseCases", "Recruitment.UseCases\Recruitment.UseCases.csproj", "{7E08DCD1-25E1-436B-B6D4-C30ED4F93FF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruitment.WebApp.UseCases", "Recruitment.WebApp.UseCases\Recruitment.WebApp.UseCases.csproj", "{7E08DCD1-25E1-436B-B6D4-C30ED4F93FF0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruitment.Shared.Core", "Recruitment.Shared.Core\Recruitment.Shared.Core.csproj", "{3262EBED-BC90-4DF6-A600-F5BE1DD5C6D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruitment.Services", "Recruitment.Services\Recruitment.Services.csproj", "{B5889785-462F-432C-A711-E0006EEB8918}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruitment.WebApp.Services", "Recruitment.WebApp.Services\Recruitment.WebApp.Services.csproj", "{B5889785-462F-432C-A711-E0006EEB8918}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{C0866E07-8484-4477-9776-09F54A0D20DF}"
 EndProject
@@ -24,16 +22,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruitment.Api.Core", "Rec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruitment.Api.EntityFramework.MSSQL", "Recruitment.Api.EntityFramework.MSSQL\Recruitment.Api.EntityFramework.MSSQL.csproj", "{2827E0B4-F46F-48FD-AA26-F74BA63B7585}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruitment.WebApp", "Recruitment.WebApp\Recruitment.WebApp.csproj", "{BF69D992-538D-401D-A02F-A862697F8DA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A31CDCAB-557A-4581-9885-51FA8956DBD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A31CDCAB-557A-4581-9885-51FA8956DBD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A31CDCAB-557A-4581-9885-51FA8956DBD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A31CDCAB-557A-4581-9885-51FA8956DBD7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7E08DCD1-25E1-436B-B6D4-C30ED4F93FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7E08DCD1-25E1-436B-B6D4-C30ED4F93FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E08DCD1-25E1-436B-B6D4-C30ED4F93FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -66,9 +62,12 @@ Global
 		{2827E0B4-F46F-48FD-AA26-F74BA63B7585}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2827E0B4-F46F-48FD-AA26-F74BA63B7585}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2827E0B4-F46F-48FD-AA26-F74BA63B7585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF69D992-538D-401D-A02F-A862697F8DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF69D992-538D-401D-A02F-A862697F8DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF69D992-538D-401D-A02F-A862697F8DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF69D992-538D-401D-A02F-A862697F8DA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{A31CDCAB-557A-4581-9885-51FA8956DBD7} = {C0866E07-8484-4477-9776-09F54A0D20DF}
 		{B5889785-462F-432C-A711-E0006EEB8918} = {C0866E07-8484-4477-9776-09F54A0D20DF}
 		{7E08DCD1-25E1-436B-B6D4-C30ED4F93FF0} = {C0866E07-8484-4477-9776-09F54A0D20DF}
 		{3262EBED-BC90-4DF6-A600-F5BE1DD5C6D5} = {1F99F94C-1BAB-4BBA-9DFA-C916F510BB46}
@@ -77,5 +76,6 @@ Global
 		{8C29C7CA-108F-437D-A086-2D6D6E9718CF} = {FB81EBCE-8F5E-4EAE-9EF2-3D4B9B18E4F7}
 		{D09305BA-522A-4B43-A6D3-2904D7DA9681} = {FB81EBCE-8F5E-4EAE-9EF2-3D4B9B18E4F7}
 		{2827E0B4-F46F-48FD-AA26-F74BA63B7585} = {FB81EBCE-8F5E-4EAE-9EF2-3D4B9B18E4F7}
+		{BF69D992-538D-401D-A02F-A862697F8DA7} = {C0866E07-8484-4477-9776-09F54A0D20DF}
 	EndGlobalSection
 EndGlobal

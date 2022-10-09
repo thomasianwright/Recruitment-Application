@@ -20,6 +20,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Recruitment.Api.EntityFramework.MSSQL\Recruitment.Api.EntityFramework.MSSQL.csproj" />
+      <ProjectReference Include="..\Recruitment.Api.Services\Recruitment.Api.Services.csproj" />
     </ItemGroup>
 
 </Project>

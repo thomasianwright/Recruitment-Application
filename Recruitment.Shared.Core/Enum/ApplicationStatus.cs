@@ -1,4 +1,4 @@
-namespace Recruitment.Api.Core.Enum;
+namespace Recruitment.Shared.Core.Enum;
 
 public enum ApplicationStatus
 {
